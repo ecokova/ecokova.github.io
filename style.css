@@ -1,25 +1,22 @@
 
 
-#header {
+.header {
         text-align: center;
-}
-
-#smart-center-body, #header {
         font-family: "Georgia";
-        margin-right: 25%;
-        margin-left: 25%;
-}
-.icon {
-        width: 25px;
-        color: black;
-}
-.icon:hover {
-        color: #6699DD;
 }
 
-.divider {
-        width: 400px;
-        color: black;
+.boxed, .boxed-plain {
+        border-radius: 2%;
+        padding: 5%;
+        background: #B8BECC;
+        border: solid 4px #395473;
+        font-family: "Georgia";
+        margin-right: 20%;
+        margin-left: 20%;
+}
+
+.boxed-plain {
+        background: white;
 }
 
 .offsite-link {
@@ -36,20 +33,6 @@
         margin-top: 2px;
         margin-bottom: 2px;
         padding-bottom: 0;
-}
-
-@media screen and (max-width: 700px){
-
-        #header, #smart-center-body{
-                margin-right: 10%;
-                margin-left: 10%;
-    }
-}
-@media screen and (max-width: 1000px) {
-        #header, #smart-center-body{
-                margin-right: 15%;
-                margin-left: 15%;
-        }
 }
 
 .mini-heading {
@@ -80,7 +63,39 @@
         width: 30%;
 }
 
-.homepage {
-        background-color: #CCDDFF;
-        background: linear-gradient(#CCDDFF, #AABBEE);
+html {
+        background: #667280;
+}
+.centered-text {
+        text-align: center;
+}
+
+a:link {
+        text-decoration: none;
+        color: black;
+}
+a:visited {
+        color: black;
+}
+
+a:hover {
+        color: #6699DD;
+}
+
+.icon {
+        width: 25px;
+        color: black;
+}
+.icon:hover {
+        color: #6699DD;
+}
+
+.divider {
+        font-size: 20px;
+        color: black;
+}
+
+.nav-icon {
+        font-size: 25px;
+        color: #395473;
 }
