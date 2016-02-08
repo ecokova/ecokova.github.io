@@ -1,0 +1,86 @@
+
+
+#header {
+        text-align: center;
+}
+
+#smart-center-body, #header {
+        font-family: "Georgia";
+        margin-right: 25%;
+        margin-left: 25%;
+}
+.icon {
+        width: 25px;
+        color: black;
+}
+.icon:hover {
+        color: #6699DD;
+}
+
+.divider {
+        width: 400px;
+        color: black;
+}
+
+.offsite-link {
+        width: 12px;
+        color: black;
+}
+.offsite-link:hover {
+        color: #6699DD;
+}
+
+
+.bullet-list {
+        padding-left: 40px;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        padding-bottom: 0;
+}
+
+@media screen and (max-width: 700px){
+
+        #header, #smart-center-body{
+                margin-right: 10%;
+                margin-left: 10%;
+    }
+}
+@media screen and (max-width: 1000px) {
+        #header, #smart-center-body{
+                margin-right: 15%;
+                margin-left: 15%;
+        }
+}
+
+.mini-heading {
+        font-weight: bold;
+}
+.mini-subheading {
+        font-style: italic;
+}
+.right-id {
+        float: right;
+}
+.section-heading {
+        border-top: medium double #404040;
+        border-bottom: thin solid #404040;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 5px;
+}
+
+.img-circle {
+        border-radius: 50%;
+}
+
+.profile-pic {
+        width: 30%;
+}
+
+.homepage {
+        background-color: #CCDDFF;
+        background: linear-gradient(#CCDDFF, #AABBEE);
+}
